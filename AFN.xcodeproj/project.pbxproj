@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31E56A46E7B0388D44F93BE8 /* libPods-AFN.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A00F6DDD2A244D467AF85216 /* libPods-AFN.a */; };
 		C04137AD1D24CF7000E9016F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C04137AC1D24CF7000E9016F /* main.m */; };
 		C04137B01D24CF7000E9016F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C04137AF1D24CF7000E9016F /* AppDelegate.m */; };
 		C04137B31D24CF7000E9016F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C04137B21D24CF7000E9016F /* ViewController.m */; };
 		C04137B61D24CF7000E9016F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04137B41D24CF7000E9016F /* Main.storyboard */; };
 		C04137B81D24CF7000E9016F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04137B71D24CF7000E9016F /* Assets.xcassets */; };
 		C04137BB1D24CF7000E9016F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04137B91D24CF7000E9016F /* LaunchScreen.storyboard */; };
+		C04137C51D24D0DF00E9016F /* IFFYAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C04137C41D24D0DF00E9016F /* IFFYAPIClient.m */; };
+		C0E41BF91D24F52C00AC8759 /* IFFYUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41BF81D24F52C00AC8759 /* IFFYUserModel.m */; };
+		C0E41BFC1D24F75B00AC8759 /* IFFYJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41BFB1D24F75B00AC8759 /* IFFYJSONModel.m */; };
+		C0E41BFF1D24FC0300AC8759 /* IFFYDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41BFE1D24FC0300AC8759 /* IFFYDataModel.m */; };
+		C0E41C021D24FE8B00AC8759 /* IFFYNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		854EF7964227159AEAE48073 /* Pods-AFN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFN/Pods-AFN.debug.xcconfig"; sourceTree = "<group>"; };
+		A00F6DDD2A244D467AF85216 /* libPods-AFN.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AFN.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04137A81D24CF7000E9016F /* AFN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04137AC1D24CF7000E9016F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C04137AE1D24CF7000E9016F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,17 @@
 		C04137B71D24CF7000E9016F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C04137BA1D24CF7000E9016F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C04137BC1D24CF7000E9016F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04137C31D24D0DF00E9016F /* IFFYAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYAPIClient.h; sourceTree = "<group>"; };
+		C04137C41D24D0DF00E9016F /* IFFYAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYAPIClient.m; sourceTree = "<group>"; };
+		C0E41BF71D24F52C00AC8759 /* IFFYUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYUserModel.h; sourceTree = "<group>"; };
+		C0E41BF81D24F52C00AC8759 /* IFFYUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYUserModel.m; sourceTree = "<group>"; };
+		C0E41BFA1D24F75B00AC8759 /* IFFYJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYJSONModel.h; sourceTree = "<group>"; };
+		C0E41BFB1D24F75B00AC8759 /* IFFYJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYJSONModel.m; sourceTree = "<group>"; };
+		C0E41BFD1D24FC0300AC8759 /* IFFYDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYDataModel.h; sourceTree = "<group>"; };
+		C0E41BFE1D24FC0300AC8759 /* IFFYDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYDataModel.m; sourceTree = "<group>"; };
+		C0E41C001D24FE8B00AC8759 /* IFFYNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYNameModel.h; sourceTree = "<group>"; };
+		C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYNameModel.m; sourceTree = "<group>"; };
+		F31B11DA7CAF45BCCA457CCC /* Pods-AFN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFN/Pods-AFN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E56A46E7B0388D44F93BE8 /* libPods-AFN.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E444D7BE0F4936121782C43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854EF7964227159AEAE48073 /* Pods-AFN.debug.xcconfig */,
+				F31B11DA7CAF45BCCA457CCC /* Pods-AFN.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C041379F1D24CF7000E9016F = {
 			isa = PBXGroup;
 			children = (
 				C04137AA1D24CF7000E9016F /* AFN */,
 				C04137A91D24CF7000E9016F /* Products */,
+				5E444D7BE0F4936121782C43 /* Pods */,
+				D1172065700696B0ED5125DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +89,8 @@
 		C04137AA1D24CF7000E9016F /* AFN */ = {
 			isa = PBXGroup;
 			children = (
+				C0E41BF31D24E8FD00AC8759 /* Models */,
+				C04137C21D24D03900E9016F /* Networking */,
 				C04137AE1D24CF7000E9016F /* AppDelegate.h */,
 				C04137AF1D24CF7000E9016F /* AppDelegate.m */,
 				C04137B11D24CF7000E9016F /* ViewController.h */,
@@ -79,6 +112,38 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C04137C21D24D03900E9016F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C04137C31D24D0DF00E9016F /* IFFYAPIClient.h */,
+				C04137C41D24D0DF00E9016F /* IFFYAPIClient.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		C0E41BF31D24E8FD00AC8759 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0E41BF71D24F52C00AC8759 /* IFFYUserModel.h */,
+				C0E41BF81D24F52C00AC8759 /* IFFYUserModel.m */,
+				C0E41BFA1D24F75B00AC8759 /* IFFYJSONModel.h */,
+				C0E41BFB1D24F75B00AC8759 /* IFFYJSONModel.m */,
+				C0E41BFD1D24FC0300AC8759 /* IFFYDataModel.h */,
+				C0E41BFE1D24FC0300AC8759 /* IFFYDataModel.m */,
+				C0E41C001D24FE8B00AC8759 /* IFFYNameModel.h */,
+				C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D1172065700696B0ED5125DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00F6DDD2A244D467AF85216 /* libPods-AFN.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C04137BF1D24CF7000E9016F /* Build configuration list for PBXNativeTarget "AFN" */;
 			buildPhases = (
+				7B0478B04577222F3AE5E30B /* [CP] Check Pods Manifest.lock */,
 				C04137A41D24CF7000E9016F /* Sources */,
 				C04137A51D24CF7000E9016F /* Frameworks */,
 				C04137A61D24CF7000E9016F /* Resources */,
+				561C6193C79CEF99370D4CAF /* [CP] Embed Pods Frameworks */,
+				EBDD48029F770FCB66AFE8DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +212,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		561C6193C79CEF99370D4CAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN/Pods-AFN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B0478B04577222F3AE5E30B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EBDD48029F770FCB66AFE8DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AFN/Pods-AFN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C04137A41D24CF7000E9016F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0E41BF91D24F52C00AC8759 /* IFFYUserModel.m in Sources */,
 				C04137B31D24CF7000E9016F /* ViewController.m in Sources */,
+				C0E41C021D24FE8B00AC8759 /* IFFYNameModel.m in Sources */,
+				C04137C51D24D0DF00E9016F /* IFFYAPIClient.m in Sources */,
 				C04137B01D24CF7000E9016F /* AppDelegate.m in Sources */,
 				C04137AD1D24CF7000E9016F /* main.m in Sources */,
+				C0E41BFF1D24FC0300AC8759 /* IFFYDataModel.m in Sources */,
+				C0E41BFC1D24F75B00AC8759 /* IFFYJSONModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +382,7 @@
 		};
 		C04137C01D24CF7000E9016F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854EF7964227159AEAE48073 /* Pods-AFN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFN/Info.plist;
@@ -272,6 +394,7 @@
 		};
 		C04137C11D24CF7000E9016F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31B11DA7CAF45BCCA457CCC /* Pods-AFN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AFN/Info.plist;
@@ -300,6 +423,7 @@
 				C04137C11D24CF7000E9016F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
