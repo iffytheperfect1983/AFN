@@ -19,6 +19,7 @@
 		C0E41BFC1D24F75B00AC8759 /* IFFYJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41BFB1D24F75B00AC8759 /* IFFYJSONModel.m */; };
 		C0E41BFF1D24FC0300AC8759 /* IFFYDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41BFE1D24FC0300AC8759 /* IFFYDataModel.m */; };
 		C0E41C021D24FE8B00AC8759 /* IFFYNameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */; };
+		C0E41C061D26359000AC8759 /* IFFYUserService.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E41C051D26359000AC8759 /* IFFYUserService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		C0E41BFE1D24FC0300AC8759 /* IFFYDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYDataModel.m; sourceTree = "<group>"; };
 		C0E41C001D24FE8B00AC8759 /* IFFYNameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYNameModel.h; sourceTree = "<group>"; };
 		C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYNameModel.m; sourceTree = "<group>"; };
+		C0E41C041D26359000AC8759 /* IFFYUserService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFFYUserService.h; sourceTree = "<group>"; };
+		C0E41C051D26359000AC8759 /* IFFYUserService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFFYUserService.m; sourceTree = "<group>"; };
 		F31B11DA7CAF45BCCA457CCC /* Pods-AFN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFN.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFN/Pods-AFN.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,6 +118,7 @@
 		C04137C21D24D03900E9016F /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				C0E41C031D26305C00AC8759 /* APIClients */,
 				C04137C31D24D0DF00E9016F /* IFFYAPIClient.h */,
 				C04137C41D24D0DF00E9016F /* IFFYAPIClient.m */,
 			);
@@ -134,6 +138,15 @@
 				C0E41C011D24FE8B00AC8759 /* IFFYNameModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		C0E41C031D26305C00AC8759 /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+				C0E41C041D26359000AC8759 /* IFFYUserService.h */,
+				C0E41C051D26359000AC8759 /* IFFYUserService.m */,
+			);
+			name = APIClients;
 			sourceTree = "<group>";
 		};
 		D1172065700696B0ED5125DD /* Frameworks */ = {
@@ -273,6 +286,7 @@
 				C04137AD1D24CF7000E9016F /* main.m in Sources */,
 				C0E41BFF1D24FC0300AC8759 /* IFFYDataModel.m in Sources */,
 				C0E41BFC1D24F75B00AC8759 /* IFFYJSONModel.m in Sources */,
+				C0E41C061D26359000AC8759 /* IFFYUserService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,4 +12,7 @@
 
 + (instancetype)sharedManager;
 
+- (NSString *)getAccessToken;
+- (void)saveAccessTokenToNSUserDefaults:(NSString *)accessToken;
+
 @end

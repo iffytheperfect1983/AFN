@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "IFFYJSONModel.h"
 #import "IFFYDataModel.h"
+#import "IFFYUserService.h"
 
 static const NSString *mockString = @"{\"id\": \"10\", \"country\": \"Germany\", \"dialCode\": 49, \"isInEurope\": true }";
 
@@ -71,6 +72,21 @@ static const NSString *mockString = @"{\"id\": \"10\", \"country\": \"Germany\",
 //    for (NSDictionary *userData in dataArr) {
 //        NSLog(@"Id:%@ Name:%@",[userData valueForKey:@"ID"],[userData valueForKey:@"Name"]);
 //    }
+    
+    NSLog(@"\n\n");
+    
+    NSLog(@"Token: %@", [[IFFYAPIClient sharedManager] getAccessToken]);
+    
+    [[IFFYAPIClient sharedManager] saveAccessTokenToNSUserDefaults:@"ABCD"];
+    
+    NSLog(@"Token: %@", [[IFFYAPIClient sharedManager] getAccessToken]);
+    
+    [[IFFYAPIClient sharedManager] saveAccessTokenToNSUserDefaults:@"KAL"];
+    
+    NSLog(@"Token: %@", [[IFFYAPIClient sharedManager] getAccessToken]);
+    
+    [IFFYUserService callNetwork];
+    
 }
 
 - (void)didReceiveMemoryWarning {
